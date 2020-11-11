@@ -13,8 +13,8 @@ This is targeted for people who are new [Maven](https://maven.apache.org/) and/o
 To build it, you will need to download and unpack the latest (or recent) version of Maven (https://maven.apache.org/download.cgi) and put 
 the `mvn` command on your path.
 
-Then, you will need to install a Java 1.8 (or higher) JDK (not JRE!), and make sure you can run `java` from the command line. Now you can run 
-`mvn clean install` and Maven will compile your project, an put the results it in a jar file in the `target` directory.
+Then, you will need to install a Java 1.8 (or higher) JDK (not JRE!), and make sure you can run `java` from the command line. You should be able to run 
+`mvn clean install`. Maven will compile your project and put the results in a jar file in the `target` directory.
 
 How you run this code is up to you, some great IDEs are: [NetBeans](https://netbeans.org/), [Intellij IDEA](https://www.jetbrains.com/idea/), or [Eclipse](https://eclipse.org/ide/).
 
@@ -25,13 +25,13 @@ The Maven dependencies may lag behind the official releases a bit.
 
 `ProgramTest` is a class for testing your Program code. It's purpose is (you might have guessed it) test method(s) within 
 `Program`. You may copy and paste any existing tests here. An additional use case is using this class for Test Driven Development (TDD) and 
-writing tests as you go. Writing code using TDD is a great skill to strengthen, especially as you are learning to develop code.
+writing tests as you go. Using TDD to write code is a great skill to strengthen, especially as you are learning to develop code.
 
 `Main` is a class for passing in custom arguments. I don't advise testing your code here, but the option is there in case you 
 want to test a quick scenario.
 
 ## How to Use
-Once your code has been written, you may run `ProgramTest` to see which tests are currently passing or failing. Debug  as needed to solve
+Once your code has been written, you may run `ProgramTest` to see which tests are currently passing or failing. Debug as needed to solve
 your respective kata.
 
 ## Status
