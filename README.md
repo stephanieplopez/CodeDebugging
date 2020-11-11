@@ -20,20 +20,21 @@ How you run this code is up to you, some great IDEs are: [NetBeans](https://netb
 
 The Maven dependencies may lag behind the official releases a bit.
 
-If you notice some problems with this setup or have suggestions for improvements, please open an issue.
-
 ## Explanation of Classes
 `Program` should be replaced with whatever code challenge or kata you are trying to solve.
 
 `ProgramTest` is a class for testing your Program code. It's purpose is (you might have guessed it) test method(s) within 
-`Program`. You may copy and paste any existing tests here. An additional use case is using this class for Test Driven Development and 
-writing tests as you go. A great skill to strengthen, especially as you are learning to develop code.
+`Program`. You may copy and paste any existing tests here. An additional use case is using this class for Test Driven Development (TDD) and 
+writing tests as you go. Writing code using TDD is a great skill to strengthen, especially as you are learning to develop code.
 
 `Main` is a class for passing in custom arguments. I don't advise testing your code here, but the option is there in case you 
 want to test a quick scenario.
 
 ## How to Use
-Once your code has been written, you may run `ProgramTest` to see which tests are currently 
+Once your code has been written, you may run `ProgramTest` to see which tests are currently passing or failing. Debug  as needed to solve
+your respective kata.
 
 ## Status
 Project is: _in progress_.
+If you notice any problems with this setup, would like to improve this README.md file, or have suggestions for improvements, please open an issue. This 
+was a project I created quickly for personal use, but I am open to feedback.
